@@ -39,6 +39,11 @@ body {
     color: white;
 }
 
+.centered {
+    justify-content: center;
+    text-align: center;
+}
+
 .top_box {
     width: 100%;
     display: flex;
