@@ -1,0 +1,489 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sub_container{
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.sub_container_bottom{
+    width: 100%;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+
+.header {
+    width: 100%;
+}
+
+.white {
+    background: white;
+}
+
+.white_text {
+    color: white;
+}
+
+.top_box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.circle_24 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.middle_text_row {
+    width: 100%;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cards_block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+
+    top: -60px;
+    z-index: 9999;
+}
+
+.padding_60{
+    width: 100%;
+    display: flex;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.two_column_top_level {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.logo_block {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.two_column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.left_box {
+    flex-basis: 40%;
+    overflow: hidden;
+}
+
+.kit_box {
+    width: 120px;
+    margin-left: 5px;
+    height: 70px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.margin_top_70 {
+    margin-top: 70px;
+}
+
+.margin_top_30 {
+    margin-top: 30px;
+}
+
+.description_bottom_text {
+    margin-top: 20px;
+}
+
+.margin_top_10 {
+    margin-top: 10px;
+}
+
+.fin_color {
+    color: #29374E;
+}
+
+.fin_back_color {
+    background-color: #CBECFF;
+}
+
+.blue_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #0962E8;
+}
+
+.hand_picture_box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 500px;
+    overflow: hidden;
+    flex-basis: 60%;
+}
+
+.image {
+    height: 500px;
+}
+
+.blue_text {
+    color: #0962E8;
+}
+
+.font_size_38{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.inter_64 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.back_light_fin_color{
+    background-color: #E9F6FF;
+}
+
+.big_card{
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.offset_top_left{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.left_middle{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.middle_card {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex: 1;
+    padding: 15px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.bottom_card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex: 1;
+    padding: 15px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pair_cards {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex: 1;
+    padding: 10px;
+
+}
+
+@media (min-width: 769px) {
+    .upper_card:first-child {
+        margin-left: 0;
+    }
+
+    .upper_card:last-child {
+        margin-right: 0;
+    }
+}
+
+.text {
+    flex-grow: 1;
+}
+
+.upper_card {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    flex: 1;
+    padding: 15px;
+
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 6px 4px 12px rgba(0, 0, 0, 5%);
+    background-color: white;
+}
+
+.icon_in_top_card{
+    flex-shrink: 0;
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: #E9F6FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle_for_icon_in_bottom_card {
+    flex-shrink: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #E9F6FF;
+}
+
+.icon_in_bottom_card{
+    color: #0962E8;
+    font-family: "fontello", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        min-width: 440px;
+    }
+
+    .middle_text_row{
+        padding-top: 40px;
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+
+    .icon_in_bottom_card{
+        font-size: 20px;
+    }
+    .circle_for_icon_in_bottom_card {
+        position: relative;
+        top: -5px;
+        z-index: 9999;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sub_container{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 15px;
+    }
+
+    .bottom_card {
+        box-shadow: 6px 4px 12px rgba(0, 0, 0, 5%);
+        padding: 0 15px 15px 15px;
+    }
+
+    .bottom_image{
+        display: flex;
+        flex: 1;
+    }
+
+   .mini_center {
+       text-align: center;
+   }
+
+    .card {
+        padding: 0;
+    }
+
+    .margin_top_70 {
+        margin-top: 20px;
+    }
+
+    .left_middle{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .big_card{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 30px;
+        flex: 1;
+        margin-top: 15px;
+    }
+
+    .font_size_38{
+        font-size: 30px;
+    }
+
+    .row{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .inter_64 {
+        font-size: 50px;
+    }
+
+    .kit_box {
+        width: 80px;
+        margin-left: 10px;
+        height: 55px;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub_container_bottom{
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .top_box {
+        padding-top: 15px;
+    }
+
+    .left_box {
+        width: 100%;
+        flex-basis: auto;
+        position: relative;
+        top: -15px;
+    }
+
+        .blue_button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        border-radius: 10px;
+        background-color: #0962E8;
+    }
+
+    .two_column_top_level {
+        flex-direction: column-reverse;
+    }
+
+    .logo_block{
+        margin-top: 0;
+    }
+    .hand_picture_box{
+        align-content: start;
+        align-items: start;
+        height: auto;
+    }
+    .image{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .upper_card {
+        flex-direction: column-reverse;
+        padding: 15px 15px 0 15px;
+    }
+
+    .cards_block{
+        display: inline-block;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        top: auto;
+        z-index: auto;
+        background-color: #CBECFF;
+        padding-bottom: 15px;
+    }
+
+    .pair_cards{
+        padding: 10px 0;
+        margin: 0 10px;
+    }
+
+    .icon_in_top_card{
+        position: relative;
+        top: -20px;
+        z-index: 9999;
+    }
+    .padding_60{
+        padding: 0;
+    }
+    .description_bottom_text{
+        margin-top: 5px;
+    }
+
+    .text {
+        position: relative;
+        top: -15px;
+        z-index: 999;
+    }
+
+}
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('./font/fontello.eot?31906423');
+    src: url('./font/fontello.eot?31906423#iefix') format('embedded-opentype'),
+    url('./font/fontello.woff?31906423') format('woff'),
+    url('./font/fontello.ttf?31906423') format('truetype'),
+    url('./font/fontello.svg?31906423#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.my_icon {
+    font-family: "fontello", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
